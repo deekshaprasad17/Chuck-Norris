@@ -1,0 +1,50 @@
+/* src/pages/RandomJoke.css */
+
+body {
+  background-color: #f4b6df;
+  color: black;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.random-container {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #f77070;
+  color: black;
+  border-color: #e2529a;
+  border-width: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #bde6ea;
+  transition: background ease 0.5s;
+  font-size: 23px;
+}
+
+.joke-box {
+  background-color: #e2529a;
+  color: #020b1a;
+  padding: 20px;
+  border-radius: 8px;
+  font-style: italic;
+  font-weight: bold;
+}
